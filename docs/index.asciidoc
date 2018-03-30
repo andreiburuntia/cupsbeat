@@ -1,0 +1,5 @@
+= Cupsbeat Docs
+
+Welcome to the Cupsbeat documentation.
+
+

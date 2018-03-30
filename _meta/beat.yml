@@ -1,0 +1,7 @@
+################### Cupsbeat Configuration Example #########################
+
+############################# Cupsbeat ######################################
+
+cupsbeat:
+  # Defines how often an event is sent to the output
+  period: 1s
