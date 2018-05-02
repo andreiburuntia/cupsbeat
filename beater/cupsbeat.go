@@ -53,11 +53,12 @@ func (bt *Cupsbeat) Run(b *beat.Beat) error {
 			Timestamp: time.Now(),
 			Fields: common.MapStr{
 				"type":    b.Info.Name,
-				"counter": counter,
+				"cnt": counter,
 			},
 		}
 		bt.client.Publish(event)
 		logp.Info("Event sent")
+		logp.Info("ASDASDASDASDASDASDASD")
 		counter++
 	}
 }
